@@ -1,12 +1,8 @@
 <h1>
-  buffer,<br />
-  bufferWhen, <br />
-  bufferTime,<br />
-  bufferCount,<br />
-  bufferToggle . <br />
+  buffer
+  <h1>{{ count }}</h1>
+  <!-- Click start to operate a new cache  -->
+  <button (click)="click()">click start</button>
+  <!-- Click stop to release the cached values -->
+  <button (click)="clickStop()">click stop</button>
 </h1>
-<h1>{{ count }}</h1>
-<!-- Click start to operate a new cache  -->
-<button (click)="click()">click start</button>
-<!-- Click stop to release the cached values -->
-<button (click)="clickStop()">click stop</button>
